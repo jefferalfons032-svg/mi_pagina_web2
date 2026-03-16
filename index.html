@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Para mi amor ❤️</title>
+
+<style>
+body{
+    font-family: Arial;
+    background: pink;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1{
+    color: red;
+}
+
+button{
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.si{
+    background: green;
+    color: white;
+}
+
+.no{
+    background: red;
+    color: white;
+}
+
+#mensaje{
+    font-size: 25px;
+    color: purple;
+    margin-top: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>¿Mi amor... tú me amas? ❤️</h1>
+
+<button class="si" onclick="respuestaSi()">Sí</button>
+<button class="no" onclick="respuestaNo()">No</button>
+
+<p id="mensaje"></p>
+
+<script>
+
+function respuestaSi(){
+    document.getElementById("mensaje").innerHTML = "Yo también te amo mucho ❤️";
+}
